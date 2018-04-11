@@ -10,7 +10,7 @@ document.getElementById('calculate').addEventListener('click', function () {
     document.getElementById('result').classList.remove('hide');
     var i;
 
-    //calculate entered sides count
+    //count entered sides
     for (i = 0; i < inputs.length; i++) {
         if (inputs[i].value) {
             sides++;
